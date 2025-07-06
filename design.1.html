@@ -8,17 +8,54 @@
         .h3{
             color: rgb(36, 10, 59);
         }
+        body{
+            background-color: rgb(244, 227, 248);
+            background-image:url(https://t4.ftcdn.net/jpg/06/66/37/41/360_F_666374168_0Ib64KyxOL46adBntVCn1BNE9KQu9W9W.jpg) ;
+            background-position: top right;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: 200px;
+        }
+        #track{
+            block-size: 100px;
+            background:linear-gradient(rgb(238, 183, 183), rgb(122, 122, 172))
+        }
+        #grass{
+            block-size: 100px;
+            background: radial-gradient(red, blue);
+        }
+        #hehe{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            animation-name: test;
+            animation-duration: 4s;
+        }
+        @keyframes test{
+            0% {background-color: rgb(243, 19, 19);}
+            25%{background-color: rgb(252, 248, 2);}
+            50%{background-color: rgb(29, 230, 22);}
+            75%{background-color: rgb(15, 15, 218);}
+            100%{background-color: rgb(219, 25, 25);}
+        }
     </style>
 </head>
 <body>
+
+    <div id="track">
+        
+    </div>
+    <div id="hehe"></div>
+    <br>
+    <br>
     <header>
         <h1><ins>Fun things about cats</ins></h1>
         <nav>
             <p>Following info is about Cats.</p>
             <ul>
-                <li><a href="#home"><small></small></a></li>
-                <li><a href="#contact"><small></small></a></li>
-                <li><a href="#adress"><small></small></a></li>
+                <li><a href="#home"><small>Home</small></a></li>
+                <li><a href="#contact"><small>Contact</small></a></li>
+                <li><a href="#address"><small>Address</small></a></li>
             </ul>
         </nav>
     </header>
@@ -78,6 +115,9 @@ Cats are the sleepiest of all mammals. They spend an average of 16 hours sleepin
 The nose pad of a cat is ridged in a pattern that is unique, just like the fingerprint of a human</p>
         
         </section>
+        <div id="grass">
+
+        </div>
        <figure>
             <img height = "100" width = "150" src="https://bestfriends.org/sites/default/files/styles/930w/public/resource_article_images/Stray_ClubMedForCatsColony_bySaraMally0111.jpg?itok=sdoSbbPY">
             <img height = "100" width = "150" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB7yUyaBA3ix0qcDswugVRJMn2w77FM6w_wg&s">
