@@ -7,6 +7,7 @@
     <style>
         .h3{
             color: rgb(36, 10, 59);
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
         body{
             background-color: rgb(244, 227, 248);
@@ -15,6 +16,16 @@
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-size: 200px;
+
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border: 1;
+        }
+        }
+        #trick{
+            transform: rotateX(180deg);
         }
         #track{
             block-size: 100px;
@@ -29,8 +40,19 @@
             height: 200px;
             background-color: red;
             animation-name: test;
-            animation-duration: 4s;
+            animation-duration: 4s;}
+
+        #dotted{
+            text-decoration: line-through;
+            text-transform: uppercase;
+            text-shadow: 10px 8px 2px green;
         }
+        #spotted{
+            text-decoration: line-through;
+            text-transform: uppercase;
+            box-shadow: 1px 2px 2px rgb(45, 0, 128);
+        }
+
         @keyframes test{
             0% {background-color: rgb(243, 19, 19);}
             25%{background-color: rgb(252, 248, 2);}
@@ -42,14 +64,14 @@
 </head>
 <body>
 
-    <div id="track">
-        
-    </div>
-    <div id="hehe"></div>
     <br>
     <br>
     <header>
         <h1><ins>Fun things about cats</ins></h1>
+
+        <h2 id="dotted">info not mine</h2>
+
+        <h2 id="spotted">use with care</h2>
         <nav>
             <p>Following info is about Cats.</p>
             <ul>
@@ -61,6 +83,9 @@
     </header>
     <main>
         <section>
+            <div id="trick"> 
+                Test
+            </div>
             <article>
                 <h2>What is a cat?</h2>
                 <blockquote cite="https://en.wikipedia.org/wiki/Cat">
@@ -127,6 +152,10 @@ The nose pad of a cat is ridged in a pattern that is unique, just like the finge
         <iframe width="560" height="315" src="https://www.youtube.com/embed/8CVBmkM0mMs?si=VfsVm1iPjPrViURc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <embed height="315" width="560" src="data:image/jpeg;base64,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">
     </main>
+    <div id="track">
+        
+    </div>
+    <div id="hehe"></div>
     <footer> <h3>Uhhhh. thats all folks </h3></footer>
 </body>
 </html>
