@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
+h1{
+  color: #df727d;
+  text-decoration: line-through;
+}
+a{
+  color: #f58a8a;
+  text-decoration: underline;
+}
+a:hover{
+  color: #e5061c;
+  font-size: 105%;
+}
+
+ul li:before{
+  content: "🍜";
+}
+p::first-letter{
+  color: blue;
+}
+p{
+  color: #6a6ab9;
+}
+h1 + p{
+  font-weight: bolder;
+}
+ul li:nth-child(1){
+  font-weight: bold;
+}
+
+.sendhelp{
+  width: 400px;
+  background-color: #d1d1f0;
+  border: 20px solid #7e7ea9;
+  padding: 10px ;
+  margin: 60px ;
+}
+.sendhelp2{
+  width: 400px;
+  background-color: #cc8ea7;
+  border: 10px solid #d97d81;
+  padding: 20px ;
+  margin: 70px ;
+}
+img#oh1{
+  float:right
+}
+img#oh2{
+  float:left
+}
+
+        div{
+            right: 30px;
+            border: 3px solid #73ad21;
+        }
+        div.absolute{
+            position: absolute;
+            left: 50px;
+            border: 3px solid blue;
+        }
+        div.relative{
+            position: relative;
+            left: 100px;
+            border: 3px solid #73ad21;
+        }
+        div.fixed{
+            position: fixed;
+            top: 0;
+            right: 30px;
+            width: 380px;
+            border: 3px solid #73ad21;
+        }
+        div.sticky{
+            position: sticky;
+            top: 1px;
+            left: 20px;
+            width: 103px;
+            border: 3px solid #73ad21;
+    }
