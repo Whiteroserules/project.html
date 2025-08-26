@@ -8,26 +8,26 @@ body{
     color: white;
 }
 h1{
-  color: #df727d;
+  color: #72dfa3;
   text-decoration: line-through;
 }
 a{
-  color: #f58a8a;
+  color: #8af5f5;
   text-decoration: underline;
 }
 a:hover{
-  color: #e5061c;
+  color: #063ae5;
   font-size: 105%;
 }
 
 ul li:before{
-  content: "🍜";
+  content: "🖼️";
 }
 p::first-letter{
-  color: blue;
+  color: rgb(70, 201, 76);
 }
 p{
-  color: #6a6ab9;
+  color: #6ab97e;
 }
 h1 + p{
   font-weight: bolder;
@@ -38,15 +38,15 @@ ul li:nth-child(1){
 
 .sendhelp{
   width: 400px;
-  background-color: #d1d1f0;
-  border: 20px solid #7e7ea9;
+  background-color: #d5f0d1;
+  border: 20px solid #84da81;
   padding: 10px ;
   margin: 60px ;
 }
 .sendhelp2{
   width: 400px;
-  background-color: #cc8ea7;
-  border: 10px solid #d97d81;
+  background-color: #8ecca3;
+  border: 10px solid #337c37;
   padding: 20px ;
   margin: 70px ;
 }
@@ -60,6 +60,7 @@ img#oh2{
         div{
             right: 30px;
             border: 3px solid #73ad21;
+            
         }
         div.absolute{
             position: absolute;
@@ -73,7 +74,7 @@ img#oh2{
         }
         div.fixed{
             position: fixed;
-            top: 0;
+            bottom: 0;
             right: 30px;
             width: 380px;
             border: 3px solid #73ad21;
@@ -82,6 +83,11 @@ img#oh2{
             position: sticky;
             top: 1px;
             left: 20px;
-            width: 103px;
+            width: 603px;
             border: 3px solid #73ad21;
     }
+.col{
+                text-align: center;
+                border: 1px solid black;
+            }
+            
